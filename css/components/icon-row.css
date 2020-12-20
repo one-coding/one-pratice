@@ -1,0 +1,48 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row__icon i {
+    font-size: 35px;
+}
+
+.icon-row__icon span {
+    margin-top: 15px;
+}
+.Openchat {
+    margin-right: 50px;
+}
+.more-suggestions {
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 25px;
+}
+.more-suggestions__title {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+.talk-drive {
+    background-color: tomato;
+    display: block;
+    width: 6px;
+    height: 6px;   
+    border-radius: 3px;
+    position: absolute;
+    top: -20px;
+    right: 10px;
+}
+.drive-icon {
+    position: relative;
+}
+.icon-row span {
+    color: rgba(0, 0, 0, 0.5);
+}
