@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅방 C-nemo</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11% </span>
+            <i class="fas fa-battery-three-quarters"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__colum">
+            <a href="chats.html">
+                <i class="fas fa-chevron-left fa-lg"></i>
+            </a>
+        </div>
+        <div class="alt-header__colum">
+            <h1 class="alt-header__title">설리</h1>
+        </div>
+        <div class="alt-header__colum">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            목요일. 12월 21일, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="/Users/jaewon/Desktop/one-pratice/screenshots/KakaoTalk_Photo_2020-10-26-20-17-17.jpeg" />
+            <div class="message-row__content">
+                <span class="message__author">설리</span>
+                <div class="messsage_info">
+                    <span class="message__buble">김재원 바보</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="messsage_info">
+                    <span class="message__buble">뭐라고?</span>
+                    <span class="message__time">21:27</span>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fas fa-plus"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fas fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>화면이 너무 큽니다ㅠㅠ</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

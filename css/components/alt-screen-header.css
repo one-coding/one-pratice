@@ -9,10 +9,25 @@ justify-content: center;
     font-size: 25px;
     font-weight: 600;
 }
+.alt-header__colum {
+    width: 33%;
+}
 
 .alt-header__colum:first-child {
     margin-right: auto;
 }
+.alt-header__colum:nth-child(2) {
+    text-align: center;
+}
+
 .alt-header__colum:last-child {
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.alt-header__colum span:last-child {
+    margin-left: 20px;
+}
+.status-bar {
+    z-index: 0;
 }
