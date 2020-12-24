@@ -101,7 +101,7 @@
         transform: none;
         color: white;
     }
-    50% {
+    50%{
         transform: scale(1.5);
         color: tomato;
     }
